@@ -4,4 +4,8 @@
         "**/obj": true
     },
     "explorer.compactFolders": false,
+    "cSpell.words": [
+        "hmac",
+        "HMACSHA"
+    ],
 }
