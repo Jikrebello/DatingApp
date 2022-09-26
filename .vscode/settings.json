@@ -1,12 +1,9 @@
 {
-    "files.exclude": {
-        "**/bin": true,
-        "**/obj": true
-    },
-    "explorer.compactFolders": false,
-    "cSpell.words": [
-        "hmac",
-        "HMACSHA"
-    ],
-    "angular.enable-strict-mode-prompt": false,
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "explorer.compactFolders": false,
+  "cSpell.words": ["hmac", "HMACSHA", "toastr"],
+  "angular.enable-strict-mode-prompt": false
 }
