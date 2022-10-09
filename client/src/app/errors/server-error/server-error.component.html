@@ -1,0 +1,22 @@
+<h4>Internal Server Error - refreshing the page will clear the error</h4>
+<ng-container *ngIf="error">
+  <h5 class="text-danger">Error: {{ error.message }}</h5>
+  <p class="font-weight bold">
+    Note: If you are seeing this, then angular is prolly not to blame
+  </p>
+  <p>What to do next?</p>
+  <ol>
+    <li>Open Dev tools.</li>
+    <li>Inspect Network tab.</li>
+    <li>Check the failing request.</li>
+    <li>Examine the request URL - make sure it is correct.</li>
+    <li>
+      Reproduce the error in Thunder Client, if we see the same response, then
+      the issue is not with angular.
+    </li>
+    <li>Stack trace:</li>
+    <code class="mt-5" style="background-color: whitesmoke">{{
+      error.details
+    }}</code>
+  </ol>
+</ng-container>
